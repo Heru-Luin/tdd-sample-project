@@ -4,7 +4,7 @@
     "description": "A TDD project starting point",
     "keywords": ["TDD"],
     "homepage": "https://github.com/Heru-Luin/tdd-sample-project",
-    "license": "DBAD",
+    "license": "MIT",
     "require": {
 		"php": ">=7.1"
     },
