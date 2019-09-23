@@ -5,6 +5,7 @@
     "keywords": ["TDD"],
     "homepage": "https://github.com/Heru-Luin/tdd-sample-project",
     "license": "MIT",
+    "stability": "dev",
     "require": {
 		"php": ">=7.1"
     },
