@@ -18,7 +18,7 @@ This repository contains a starting point for projects using Test Driven Develop
 ## Installation
 
 ```sh
-composer create-project heru-luin/tdd-sample-project
+composer create-project heru-luin/tdd-sample-project --stability dev
 cd tdd-sample-project
 chmod +x bin/red.sh bin/green.sh bin/refactor.sh
 ```
