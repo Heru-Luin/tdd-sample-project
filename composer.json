@@ -1,24 +1,26 @@
 {
-    "name": "buonzz/composer-library-template",
-    "description": "Boilerplate package for creating other packages.",
-    "keywords": ["template", "composer", "package"],
-    "license": "DBAD",
-    "authors": [
-        {
-            "name": "Darwin Biler",
-            "email": "buonzz@gmail.com"
-        }
-    ],
+    "name": "heru-luin/tdd-sample-project",
     "type": "project",
+    "description": "A TDD project starting point",
+    "keywords": ["TDD"],
+    "homepage": "https://github.com/Heru-Luin/tdd-sample-project",
+    "license": "DBAD",
     "require": {
 		"php": ">=7.1"
     },
     "require-dev": {
-		"phpunit/phpunit": "6.*"
+        "phpunit/phpunit": "^7",
+        "phan/phan": "^2.2",
+        "squizlabs/php_codesniffer": "*"
     },
     "autoload": {
         "psr-4": {
-            "Buonzz\\Template\\": "src/"
+            "Foo\\Bar\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Foo\\Bar\\Tests\\": "tests/"
         }
     }
 }
